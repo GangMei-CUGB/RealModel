@@ -1,0 +1,552 @@
+﻿Build started 10/26/2014 11:29:40 PM.
+     1>Project "G:\RealModel 2013.05.08 EGC\RealModel.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\RealModel.lastbuildstate".
+       InitializeBuildStatus:
+         Touching "Debug\RealModel.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Yc"StdAfx.h" /Fp"Debug\RealModel.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Yu"StdAfx.h" /Fp"Debug\RealModel.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Block.cpp build.cpp ClassView.cpp collide.cpp Convert.cpp Cordnt.cpp Count.cpp EarCut.cpp EarCutSTL.cpp Edge.cpp FileView.cpp Hehd.cpp Insect.cpp Interpolate.cpp Line.cpp Loop.cpp MainFrm.cpp Model.cpp Moller.cpp MollerEGC.cpp Node.cpp NotepadDlg.cpp Octree.cpp OctreeNode.cpp Open.cpp OutputWnd.cpp overlap.cpp Pair.cpp Plane.cpp PLine.cpp Pohd.cpp ProgressWnd.cpp Prop.cpp PropDef.cpp PropertiesWnd.cpp PropNew.cpp PropSet.cpp Quad.cpp RAPID.cpp RealModel.cpp RealModelDoc.cpp RealModelView.cpp RenderView.cpp Save.cpp SelNumPick.cpp SelOption.cpp Surf.cpp Trgl.cpp "triangle .cpp" Vector.cpp ViewPara.cpp ViewTree.cpp ZoomView.cpp
+         ZoomView.cpp
+         ViewTree.cpp
+         ViewPara.cpp
+         Vector.cpp
+         triangle .cpp
+     1>g:\realmodel 2013.05.08 egc\triangle .cpp(317): warning C4005: 'VOID' : macro redefinition
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(330) : see previous definition of 'VOID'
+     1>g:\realmodel 2013.05.08 egc\triangle .cpp(3301): warning C4101: 'k' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\triangle .cpp(3302): warning C4101: 'workstring' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\triangle .cpp(12456): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+         Trgl.cpp
+         Surf.cpp
+         SelOption.cpp
+     1>g:\realmodel 2013.05.08 egc\seloption.cpp(427): warning C4101: 'nSelectProp' : unreferenced local variable
+         SelNumPick.cpp
+         Save.cpp
+     1>g:\realmodel 2013.05.08 egc\save.cpp(24): warning C4018: '<' : signed/unsigned mismatch
+         RenderView.cpp
+         RealModelView.cpp
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(2709): warning C4101: 'bexist' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(3279): warning C4101: 'pLp' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(3278): warning C4101: 'bBox' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(3281): warning C4101: 'id_lp' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(3278): warning C4101: 'bIntr' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(3281): warning C4101: 'id_nd' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(3443): warning C4101: 'pLp' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(3442): warning C4101: 'bBox' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(3445): warning C4101: 'id_lp' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(3442): warning C4101: 'bIntr' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(3445): warning C4101: 'id_nd' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(3441): warning C4101: 't' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(3689): warning C4101: 'id_lp' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(3687): warning C4101: 'k' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(3689): warning C4101: 'id_nd' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(3687): warning C4101: 't' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(3848): warning C4101: 'id_lp' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(3846): warning C4101: 'k' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(3848): warning C4101: 'id_nd' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(3846): warning C4101: 't' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(3933): warning C4101: 'n' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(3933): warning C4101: 'ID' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(3933): warning C4101: 'j' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(3968): warning C4101: 'n' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(3968): warning C4101: 'ID' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(3968): warning C4101: 'j' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(5351): warning C4101: 'situ' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(6266): warning C4101: 'situ' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(8207): warning C4101: 'situ' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(8041): warning C4101: 'dstep' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(8039): warning C4101: 'zdivi' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(8045): warning C4101: 'pMax' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(8042): warning C4101: 'n5' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(8039): warning C4101: 'xdivi' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(8042): warning C4101: 'n4' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(8041): warning C4101: 'sum' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(8042): warning C4101: 'n7' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(8042): warning C4101: 'n6' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(8045): warning C4101: 'pMin' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(8039): warning C4101: 'ydivi' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(9079): warning C4101: 'fPoint0' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(9079): warning C4101: 'fNormal' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(9079): warning C4101: 'fPoint1' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(9079): warning C4101: 'fPoint2' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(9233): warning C4101: 'fPoint0' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(9233): warning C4101: 'fPoint1' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(9233): warning C4101: 'fPoint2' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(9389): warning C4101: 'fPoint0' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(9389): warning C4101: 'fNormal' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(9389): warning C4101: 'fPoint1' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(9389): warning C4101: 'fPoint2' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(9515): warning C4101: 'id_Nds' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(9517): warning C4101: 'fPoint0' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(9517): warning C4101: 'fNormal' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(9517): warning C4101: 'fPoint1' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(9517): warning C4101: 'fPoint2' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(9683): warning C4101: 'id_Nds' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(9683): warning C4101: 'n' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(9684): warning C4101: 'fPoint0' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(9684): warning C4101: 'fNormal' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(9684): warning C4101: 'fPoint1' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(9684): warning C4101: 'fPoint2' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(9790): warning C4101: 'id_Nds' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(9791): warning C4101: 'fPoint0' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(9791): warning C4101: 'fPoint1' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(9791): warning C4101: 'fPoint2' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(9984): warning C4101: 'id_Nds' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(9985): warning C4101: 'fPoint0' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(9985): warning C4101: 'fPoint1' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(9985): warning C4101: 'fPoint2' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(10154): warning C4101: 'fPoint0' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(10154): warning C4101: 'fPoint1' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(10154): warning C4101: 'fPoint2' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(10230): warning C4101: 'id_Nds' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(10232): warning C4101: 'fPoint0' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(10232): warning C4101: 'fNormal' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(10232): warning C4101: 'fPoint1' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(10232): warning C4101: 'fPoint2' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(10386): warning C4101: 'j' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(10448): warning C4101: 'id_Nds' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(10450): warning C4101: 'fPoint0' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(10450): warning C4101: 'fNormal' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(10450): warning C4101: 'fPoint1' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(10450): warning C4101: 'fPoint2' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(10608): warning C4101: 'id_Nds' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(10610): warning C4101: 'fPoint0' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(10610): warning C4101: 'fNormal' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(10610): warning C4101: 'fPoint1' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(10610): warning C4101: 'fPoint2' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(10769): warning C4101: 'id_Nds' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(10771): warning C4101: 'fPoint0' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(10771): warning C4101: 'fNormal' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(10769): warning C4101: 'id_Phd' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(10771): warning C4101: 'fPoint1' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(10771): warning C4101: 'fPoint2' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(11313): warning C4101: 'fPoint0' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(11313): warning C4101: 'fNormal' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(11313): warning C4101: 'fPoint1' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(11313): warning C4101: 'fPoint2' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(11428): warning C4101: 'fPoint0' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(11428): warning C4101: 'fNormal' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(11428): warning C4101: 'fPoint1' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(11428): warning C4101: 'fPoint2' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(11543): warning C4101: 'i' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(11611): warning C4101: 'i' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(11694): warning C4101: 'fPoint0' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(11695): warning C4101: 'RGB2' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(11694): warning C4101: 'fNormal' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(11694): warning C4101: 'fPoint1' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(11692): warning C4101: 't' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(11696): warning C4101: 'tRGB' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(11695): warning C4101: 'RGB1' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(11694): warning C4101: 'fPoint2' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(11805): warning C4101: 'fPoint0' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(11806): warning C4101: 'RGB2' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(11805): warning C4101: 'fNormal' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(11805): warning C4101: 'fPoint1' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(11803): warning C4101: 't' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(11807): warning C4101: 'tRGB' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(11806): warning C4101: 'RGB1' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(11805): warning C4101: 'fPoint2' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(11995): warning C4101: 'fPoint0' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(11995): warning C4101: 'fNormal' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(11995): warning C4101: 'fPoint1' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(11995): warning C4101: 'fPoint2' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(12822): warning C4101: 'k' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(12822): warning C4101: 't' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(13152): warning C4101: 'j' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(13552): warning C4101: 'k' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(13666): warning C4101: 'bExist' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(13865): warning C4101: 'bExist' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(14080): warning C4101: 'n' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(14080): warning C4101: 'k' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(14080): warning C4101: 't' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(14373): warning C4101: 'id_blk' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(14637): warning C4101: 'id_blk' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(14940): warning C4101: 'id' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(15440): warning C4101: 'k' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(15718): warning C4101: 'dist' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(16298): warning C4805: '==' : unsafe mix of type 'BOOL' and type 'bool' in operation
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(16295): warning C4101: 'dist' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(16892): warning C4101: 'min' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(16892): warning C4101: 'nID' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(16891): warning C4101: 'k' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(16891): warning C4101: 'j' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(16963): warning C4101: 'nID' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(17097): warning C4101: 'min' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(17099): warning C4101: 'z' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(18046): warning C4101: 'i' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(18046): warning C4101: 'j' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(18085): warning C4101: 'y' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(18085): warning C4101: 'x' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(18084): warning C4101: 'i' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(18084): warning C4101: 'n1' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(18084): warning C4101: 'n0' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(18086): warning C4101: 'nNds' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(18085): warning C4101: 'z' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(18084): warning C4101: 'k' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(18084): warning C4101: 'n2' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(18086): warning C4101: 'nTrgls' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(18084): warning C4101: 'm' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(18084): warning C4101: 'j' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(18508): warning C4101: 'i' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(18508): warning C4101: 'j' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(18704): warning C4101: 'k' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(18741): warning C4101: 'ny' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(18740): warning C4101: 'count' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(18742): warning C4101: 'pMax' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(18741): warning C4101: 'nx' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(18741): warning C4101: 'nz' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(18742): warning C4101: 'pMin' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(18741): warning C4101: 'para' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(19080): warning C4101: 'i' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(20477): warning C4101: 'j' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(20574): warning C4101: 'id_Nds' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(20574): warning C4101: 'i' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(20576): warning C4101: 'fPoint0' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(20576): warning C4101: 'fNormal' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(20574): warning C4101: 'id_Phd' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(20576): warning C4101: 'fPoint1' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(20576): warning C4101: 'fPoint2' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(20574): warning C4101: 'j' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(20781): warning C4101: 'id' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(20781): warning C4101: 'id_Nds' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(20781): warning C4101: 'i' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(20783): warning C4101: 'fPoint0' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(20783): warning C4101: 'fNormal' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(20783): warning C4101: 'fPoint1' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(20783): warning C4101: 'fPoint2' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(20956): warning C4101: 'id_Nds' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(20958): warning C4101: 'fPoint0' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(20958): warning C4101: 'fNormal' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(20958): warning C4101: 'fPoint1' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(20958): warning C4101: 'fPoint2' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(21272): warning C4101: 'ID' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(21272): warning C4101: 'n3' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(21305): warning C4101: 'ID' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(21380): warning C4101: 'ss' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(21379): warning C4101: 'nm' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(21664): warning C4005: 'PI' : macro redefinition
+                 g:\realmodel 2013.05.08 egc\meigang.h(27) : see previous definition of 'PI'
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(22268): warning C4101: 'y' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(22268): warning C4101: 'x' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(22269): warning C4101: 'bExist' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(22268): warning C4101: 'z' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(22268): warning C4101: 'para' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(22458): warning C4101: 'id_last' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(22848): warning C4101: 'k' : unreferenced local variable
+         RealModelDoc.cpp
+         RealModel.cpp
+         RAPID.cpp
+         Quad.cpp
+         PropSet.cpp
+         PropNew.cpp
+         PropertiesWnd.cpp
+         PropDef.cpp
+         Generating Code...
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(3150): warning C4715: 'CRealModelView::IsSameNode' : not all control paths return a value
+     1>g:\realmodel 2013.05.08 egc\realmodelview.cpp(3173): warning C4715: 'CRealModelView::IsSameNode' : not all control paths return a value
+         Compiling...
+         Prop.cpp
+         ProgressWnd.cpp
+     1>g:\realmodel 2013.05.08 egc\progresswnd.cpp(384): warning C4996: 'vswprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\swprintf.inl(97) : see declaration of 'vswprintf'
+         Pohd.cpp
+         PLine.cpp
+         Plane.cpp
+         Pair.cpp
+         overlap.cpp
+         OutputWnd.cpp
+         Open.cpp
+         OctreeNode.cpp
+         Octree.cpp
+     1>g:\realmodel 2013.05.08 egc\octree.cpp(51): warning C4101: 'num' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\octree.cpp(24): warning C4101: 'k' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\octree.cpp(24): warning C4101: 'j' : unreferenced local variable
+         NotepadDlg.cpp
+         Node.cpp
+         MollerEGC.cpp
+         Moller.cpp
+         Model.cpp
+         MainFrm.cpp
+         Loop.cpp
+         Line.cpp
+         Interpolate.cpp
+     1>g:\realmodel 2013.05.08 egc\interpolate.cpp(44): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>g:\realmodel 2013.05.08 egc\interpolate.cpp(181): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>g:\realmodel 2013.05.08 egc\interpolate.cpp(210): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>g:\realmodel 2013.05.08 egc\interpolate.cpp(344): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>g:\realmodel 2013.05.08 egc\interpolate.cpp(371): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>g:\realmodel 2013.05.08 egc\interpolate.cpp(408): warning C4018: '<' : signed/unsigned mismatch
+     1>g:\realmodel 2013.05.08 egc\interpolate.cpp(410): warning C4018: '<' : signed/unsigned mismatch
+     1>g:\realmodel 2013.05.08 egc\interpolate.cpp(411): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>g:\realmodel 2013.05.08 egc\interpolate.cpp(416): warning C4018: '<' : signed/unsigned mismatch
+     1>g:\realmodel 2013.05.08 egc\interpolate.cpp(426): warning C4018: '<' : signed/unsigned mismatch
+     1>g:\realmodel 2013.05.08 egc\interpolate.cpp(433): warning C4018: '<' : signed/unsigned mismatch
+     1>g:\realmodel 2013.05.08 egc\interpolate.cpp(434): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>g:\realmodel 2013.05.08 egc\interpolate.cpp(437): warning C4018: '<' : signed/unsigned mismatch
+     1>g:\realmodel 2013.05.08 egc\interpolate.cpp(445): warning C4018: '<' : signed/unsigned mismatch
+     1>g:\realmodel 2013.05.08 egc\interpolate.cpp(465): warning C4018: '<' : signed/unsigned mismatch
+     1>g:\realmodel 2013.05.08 egc\interpolate.cpp(467): warning C4018: '<' : signed/unsigned mismatch
+     1>g:\realmodel 2013.05.08 egc\interpolate.cpp(468): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>g:\realmodel 2013.05.08 egc\interpolate.cpp(473): warning C4018: '<' : signed/unsigned mismatch
+     1>g:\realmodel 2013.05.08 egc\interpolate.cpp(476): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>g:\realmodel 2013.05.08 egc\interpolate.cpp(483): warning C4018: '<' : signed/unsigned mismatch
+     1>g:\realmodel 2013.05.08 egc\interpolate.cpp(490): warning C4018: '<' : signed/unsigned mismatch
+     1>g:\realmodel 2013.05.08 egc\interpolate.cpp(491): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>g:\realmodel 2013.05.08 egc\interpolate.cpp(494): warning C4018: '<' : signed/unsigned mismatch
+     1>g:\realmodel 2013.05.08 egc\interpolate.cpp(502): warning C4018: '<' : signed/unsigned mismatch
+     1>g:\realmodel 2013.05.08 egc\interpolate.cpp(609): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>g:\realmodel 2013.05.08 egc\interpolate.cpp(630): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         Generating Code...
+         Compiling...
+         Insect.cpp
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(20): warning C4005: 'PI' : macro redefinition
+                 g:\realmodel 2013.05.08 egc\meigang.h(27) : see previous definition of 'PI'
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(394): warning C4101: 'k' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(394): warning C4101: 'j' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(860): warning C4101: 'id' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(861): warning C4101: 'y' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(861): warning C4101: 'x' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(860): warning C4101: 'n' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(861): warning C4101: 'z' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(860): warning C4101: 'nCase' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(975): warning C4101: 'id' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(976): warning C4101: 'y' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(976): warning C4101: 'x' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(975): warning C4101: 'n' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(976): warning C4101: 'z' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(975): warning C4101: 'nCase' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(1142): warning C4101: 'n' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(1364): warning C4101: 'n' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(1574): warning C4101: 'n' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(1814): warning C4101: 'bsame' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(1798): warning C4101: 'k' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(1971): warning C4101: 'out' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(2201): warning C4101: 'bsame' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(2185): warning C4101: 'k' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(2414): warning C4101: 'out' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(2989): warning C4101: 'k' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(3240): warning C4101: 'k' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(3560): warning C4101: 't' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(3560): warning C4101: 'j' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(3758): warning C4101: 't' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(3758): warning C4101: 'j' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(3800): warning C4101: 'nID' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(3874): warning C4101: 'nz' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(3800): warning C4101: 'j' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(4181): warning C4101: 'j' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(4226): warning C4101: 'j' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(4263): warning C4101: 'y' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(4263): warning C4101: 'x' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(4263): warning C4101: 'z' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(4259): warning C4101: 'j' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(4272): warning C4101: 'lst' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(4272): warning C4101: 'fst' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(4315): warning C4101: 'y' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(4315): warning C4101: 'x' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(4315): warning C4101: 'z' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(4324): warning C4101: 'lst' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(4324): warning C4101: 'fst' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(4350): warning C4101: 'j' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(4363): warning C4101: 'lst' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(4363): warning C4101: 'fst' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(4404): warning C4101: 'k' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(4404): warning C4101: 't' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(4404): warning C4101: 'j' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(4489): warning C4101: 'k' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(4489): warning C4101: 't' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(4489): warning C4101: 'j' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(4591): warning C4101: 'k' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(4591): warning C4101: 't' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(4591): warning C4101: 'j' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(4743): warning C4101: 'k' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(5566): warning C4101: 'nSurf' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(5566): warning C4101: 'nID' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(5567): warning C4101: 'tail' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(5566): warning C4101: 'k' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(5567): warning C4101: 'head' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(5566): warning C4101: 't' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(6349): warning C4805: '==' : unsafe mix of type 'BOOL' and type 'bool' in operation
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(6493): warning C4805: '==' : unsafe mix of type 'BOOL' and type 'bool' in operation
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(6330): warning C4101: 'k' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(6622): warning C4101: 'k' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(6754): warning C4101: 'oldNum' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(6754): warning C4101: 'newNum' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(6754): warning C4101: 'k' : unreferenced local variable
+         Hehd.cpp
+         FileView.cpp
+         Edge.cpp
+         EarCutSTL.cpp
+         EarCut.cpp
+     1>g:\realmodel 2013.05.08 egc\earcut.cpp(146): warning C4101: 'nID' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\earcut.cpp(280): warning C4101: 'min' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\earcut.cpp(282): warning C4101: 'z' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\earcut.cpp(793): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>g:\realmodel 2013.05.08 egc\earcut.cpp(793): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>g:\realmodel 2013.05.08 egc\earcut.cpp(793): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>g:\realmodel 2013.05.08 egc\earcut.cpp(797): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>g:\realmodel 2013.05.08 egc\earcut.cpp(797): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>g:\realmodel 2013.05.08 egc\earcut.cpp(797): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>g:\realmodel 2013.05.08 egc\earcut.cpp(801): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>g:\realmodel 2013.05.08 egc\earcut.cpp(801): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>g:\realmodel 2013.05.08 egc\earcut.cpp(801): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>g:\realmodel 2013.05.08 egc\earcut.cpp(806): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>g:\realmodel 2013.05.08 egc\earcut.cpp(806): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>g:\realmodel 2013.05.08 egc\earcut.cpp(806): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>g:\realmodel 2013.05.08 egc\earcut.cpp(991): warning C4805: '==' : unsafe mix of type 'int' and type 'bool' in operation
+     1>g:\realmodel 2013.05.08 egc\earcut.cpp(991): warning C4805: '==' : unsafe mix of type 'int' and type 'bool' in operation
+     1>g:\realmodel 2013.05.08 egc\earcut.cpp(966): warning C4101: 'ndata' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\earcut.cpp(969): warning C4101: 'id_nds' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\earcut.cpp(967): warning C4101: 'nNds' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\earcut.cpp(967): warning C4101: 'flag' : unreferenced local variable
+     1>g:\realmodel 2013.05.08 egc\earcut.cpp(967): warning C4101: 'nLps' : unreferenced local variable
+         Count.cpp
+         Cordnt.cpp
+         Convert.cpp
+         collide.cpp
+         ClassView.cpp
+         build.cpp
+         Block.cpp
+         Generating Code...
+     1>g:\realmodel 2013.05.08 egc\earcut.cpp(119): warning C4715: 'CEarCut::IsSameNode' : not all control paths return a value
+     1>g:\realmodel 2013.05.08 egc\earcut.cpp(141): warning C4715: 'CEarCut::IsSameNode' : not all control paths return a value
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(372): warning C4700: uninitialized local variable 'tr_surf' used
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(372): warning C4700: uninitialized local variable 'lb_surf' used
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(373): warning C4700: uninitialized local variable 'tr_blk' used
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(373): warning C4700: uninitialized local variable 'lb_blk' used
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(2330): warning C4700: uninitialized local variable 'endpoint' used
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(6844): warning C4715: 'CInsect::IsSameNode' : not all control paths return a value
+     1>g:\realmodel 2013.05.08 egc\insect.cpp(6864): warning C4715: 'CInsect::IsSameNode' : not all control paths return a value
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0409" /IDebug\ /nologo /fo"Debug\RealModel.res" RealModel.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\RealModel.exe.embed.manifest.res" Debug\RealModel_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\RealModel 2013.05.08 EGC\Debug\RealModel.exe" /INCREMENTAL /NOLOGO opengl32.lib glu32.lib glut32.lib /MANIFEST /ManifestFile:"Debug\RealModel.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\RealModel 2013.05.08 EGC\Debug\RealModel.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\RealModel 2013.05.08 EGC\Debug\RealModel.lib" /MACHINE:X86 Debug\RealModel.res
+         Debug\RealModel.exe.embed.manifest.res
+         Debug\Block.obj
+         Debug\build.obj
+         Debug\ClassView.obj
+         Debug\collide.obj
+         Debug\Convert.obj
+         Debug\Cordnt.obj
+         Debug\Count.obj
+         Debug\EarCut.obj
+         Debug\EarCutSTL.obj
+         Debug\Edge.obj
+         Debug\FileView.obj
+         Debug\Hehd.obj
+         Debug\Insect.obj
+         Debug\Interpolate.obj
+         Debug\Line.obj
+         Debug\Loop.obj
+         Debug\MainFrm.obj
+         Debug\Model.obj
+         Debug\Moller.obj
+         Debug\MollerEGC.obj
+         Debug\Node.obj
+         Debug\NotepadDlg.obj
+         Debug\Octree.obj
+         Debug\OctreeNode.obj
+         Debug\Open.obj
+         Debug\OutputWnd.obj
+         Debug\overlap.obj
+         Debug\Pair.obj
+         Debug\Plane.obj
+         Debug\PLine.obj
+         Debug\Pohd.obj
+         Debug\ProgressWnd.obj
+         Debug\Prop.obj
+         Debug\PropDef.obj
+         Debug\PropertiesWnd.obj
+         Debug\PropNew.obj
+         Debug\PropSet.obj
+         Debug\Quad.obj
+         Debug\RAPID.obj
+         Debug\RealModel.obj
+         Debug\RealModelDoc.obj
+         Debug\RealModelView.obj
+         Debug\RenderView.obj
+         Debug\Save.obj
+         Debug\SelNumPick.obj
+         Debug\SelOption.obj
+         Debug\stdafx.obj
+         Debug\Surf.obj
+         Debug\Trgl.obj
+         "Debug\triangle .obj"
+         Debug\Vector.obj
+         Debug\ViewPara.obj
+         Debug\ViewTree.obj
+         Debug\ZoomView.obj
+       Manifest:
+         Deleting file "Debug\RealModel.exe.embed.manifest".
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\RealModel.exe.embed.manifest" /manifest Debug\RealModel.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\RealModel.exe.embed.manifest.res" Debug\RealModel_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\RealModel 2013.05.08 EGC\Debug\RealModel.exe" /INCREMENTAL /NOLOGO opengl32.lib glu32.lib glut32.lib /MANIFEST /ManifestFile:"Debug\RealModel.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\RealModel 2013.05.08 EGC\Debug\RealModel.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\RealModel 2013.05.08 EGC\Debug\RealModel.lib" /MACHINE:X86 Debug\RealModel.res
+         Debug\RealModel.exe.embed.manifest.res
+         Debug\Block.obj
+         Debug\build.obj
+         Debug\ClassView.obj
+         Debug\collide.obj
+         Debug\Convert.obj
+         Debug\Cordnt.obj
+         Debug\Count.obj
+         Debug\EarCut.obj
+         Debug\EarCutSTL.obj
+         Debug\Edge.obj
+         Debug\FileView.obj
+         Debug\Hehd.obj
+         Debug\Insect.obj
+         Debug\Interpolate.obj
+         Debug\Line.obj
+         Debug\Loop.obj
+         Debug\MainFrm.obj
+         Debug\Model.obj
+         Debug\Moller.obj
+         Debug\MollerEGC.obj
+         Debug\Node.obj
+         Debug\NotepadDlg.obj
+         Debug\Octree.obj
+         Debug\OctreeNode.obj
+         Debug\Open.obj
+         Debug\OutputWnd.obj
+         Debug\overlap.obj
+         Debug\Pair.obj
+         Debug\Plane.obj
+         Debug\PLine.obj
+         Debug\Pohd.obj
+         Debug\ProgressWnd.obj
+         Debug\Prop.obj
+         Debug\PropDef.obj
+         Debug\PropertiesWnd.obj
+         Debug\PropNew.obj
+         Debug\PropSet.obj
+         Debug\Quad.obj
+         Debug\RAPID.obj
+         Debug\RealModel.obj
+         Debug\RealModelDoc.obj
+         Debug\RealModelView.obj
+         Debug\RenderView.obj
+         Debug\Save.obj
+         Debug\SelNumPick.obj
+         Debug\SelOption.obj
+         Debug\stdafx.obj
+         Debug\Surf.obj
+         Debug\Trgl.obj
+         "Debug\triangle .obj"
+         Debug\Vector.obj
+         Debug\ViewPara.obj
+         Debug\ViewTree.obj
+         Debug\ZoomView.obj
+         RealModel.vcxproj -> G:\RealModel 2013.05.08 EGC\Debug\RealModel.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\RealModel.unsuccessfulbuild".
+         Touching "Debug\RealModel.lastbuildstate".
+     1>Done Building Project "G:\RealModel 2013.05.08 EGC\RealModel.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:41.25

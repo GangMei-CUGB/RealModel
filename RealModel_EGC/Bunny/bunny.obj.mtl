@@ -1,0 +1,13 @@
+#
+# Wavefront material file
+# Converted by Meshlab Group
+#
+
+newmtl material_0
+Ka 0.200000 0.200000 0.200000
+Kd 0.760784 0.992157 0.988235
+Ks 1.000000 1.000000 1.000000
+Tr 0.807843
+illum 2
+Ns 0.000000
+

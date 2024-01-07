@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E2BDA39D-D3CC-4DCF-817E-D67CE0AEB054}</ProjectGuid>
+    <RootNamespace>RealModel</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <OpenMPSupport>true</OpenMPSupport>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;glut32.lib</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\bitmap1.bmp" />
+    <None Include="res\bmp00001.bmp" />
+    <None Include="res\classview.bmp" />
+    <None Include="res\classview_hc.bmp" />
+    <None Include="res\class_view.ico" />
+    <None Include="res\class_view_hc.ico" />
+    <None Include="res\explorer.bmp" />
+    <None Include="res\explorer_hc.bmp" />
+    <None Include="res\fileview.bmp" />
+    <None Include="res\fileview_hc.bmp" />
+    <None Include="res\file_view.ico" />
+    <None Include="res\file_view_hc.ico" />
+    <None Include="res\menuimages.bmp" />
+    <None Include="res\menuimages_hc.bmp" />
+    <None Include="res\myIntersectCut.bmp" />
+    <None Include="res\myToolBar2.bmp" />
+    <None Include="res\myToolBarView.bmp" />
+    <None Include="res\myToolBarViewMore.bmp" />
+    <None Include="res\myToolBarView_24.bmp" />
+    <None Include="res\myViewToolBar.bmp" />
+    <None Include="res\output_wnd.ico" />
+    <None Include="res\output_wnd_hc.ico" />
+    <None Include="res\pan.ico" />
+    <None Include="res\properties.bmp" />
+    <None Include="res\properties_hc.bmp" />
+    <None Include="res\properties_wnd.ico" />
+    <None Include="res\properties_wnd_hc.ico" />
+    <None Include="res\RealModel.ico" />
+    <None Include="res\RealModel.rc2" />
+    <None Include="res\RealModelDoc.ico" />
+    <None Include="res\sort.bmp" />
+    <None Include="res\sort_hc.bmp" />
+    <None Include="res\Toolbar.bmp" />
+    <None Include="res\toolbar1.bmp" />
+    <None Include="res\toolbar2.bmp" />
+    <None Include="res\Toolbar256.bmp" />
+    <None Include="UserImages.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Block.h" />
+    <ClInclude Include="ClassView.h" />
+    <ClInclude Include="Convert.h" />
+    <ClInclude Include="Cordnt.h" />
+    <ClInclude Include="Count.h" />
+    <ClInclude Include="EarCut.h" />
+    <ClInclude Include="EarCutSTL.h" />
+    <ClInclude Include="Edge.h" />
+    <ClInclude Include="FileView.h" />
+    <ClInclude Include="Hehd.h" />
+    <ClInclude Include="Insect.h" />
+    <ClInclude Include="Interpolate.h" />
+    <ClInclude Include="Line.h" />
+    <ClInclude Include="Loop.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="matvec.h" />
+    <ClInclude Include="MeiGang.h" />
+    <ClInclude Include="Model.h" />
+    <ClInclude Include="Moller.h" />
+    <ClInclude Include="MollerEGC.h" />
+    <ClInclude Include="moments.h" />
+    <ClInclude Include="Node.h" />
+    <ClInclude Include="NotepadDlg.h" />
+    <ClInclude Include="obb.h" />
+    <ClInclude Include="Octree.h" />
+    <ClInclude Include="OctreeNode.h" />
+    <ClInclude Include="Open.h" />
+    <ClInclude Include="OutputWnd.h" />
+    <ClInclude Include="overlap.h" />
+    <ClInclude Include="Pair.h" />
+    <ClInclude Include="Plane.h" />
+    <ClInclude Include="PLine.h" />
+    <ClInclude Include="Pohd.h" />
+    <ClInclude Include="ProgressWnd.h" />
+    <ClInclude Include="Prop.h" />
+    <ClInclude Include="PropDef.h" />
+    <ClInclude Include="PropertiesWnd.h" />
+    <ClInclude Include="PropNew.h" />
+    <ClInclude Include="PropSet.h" />
+    <ClInclude Include="Quad.h" />
+    <ClInclude Include="RAPID.h" />
+    <ClInclude Include="RAPID_private.h" />
+    <ClInclude Include="RAPID_version.h" />
+    <ClInclude Include="RealModel.h" />
+    <ClInclude Include="RealModelDoc.h" />
+    <ClInclude Include="RealModelView.h" />
+    <ClInclude Include="RenderView.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="Save.h" />
+    <ClInclude Include="SelNumPick.h" />
+    <ClInclude Include="SelOption.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Surf.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Trgl.h" />
+    <ClInclude Include="triangle.h" />
+    <ClInclude Include="Vector.h" />
+    <ClInclude Include="ViewPara.h" />
+    <ClInclude Include="ViewTree.h" />
+    <ClInclude Include="ZoomView.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Block.cpp" />
+    <ClCompile Include="build.cpp" />
+    <ClCompile Include="ClassView.cpp" />
+    <ClCompile Include="collide.cpp" />
+    <ClCompile Include="Convert.cpp" />
+    <ClCompile Include="Cordnt.cpp" />
+    <ClCompile Include="Count.cpp" />
+    <ClCompile Include="EarCut.cpp" />
+    <ClCompile Include="EarCutSTL.cpp" />
+    <ClCompile Include="Edge.cpp" />
+    <ClCompile Include="FileView.cpp" />
+    <ClCompile Include="Hehd.cpp" />
+    <ClCompile Include="Insect.cpp" />
+    <ClCompile Include="Interpolate.cpp" />
+    <ClCompile Include="Line.cpp" />
+    <ClCompile Include="Loop.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="Model.cpp" />
+    <ClCompile Include="Moller.cpp" />
+    <ClCompile Include="MollerEGC.cpp" />
+    <ClCompile Include="Node.cpp" />
+    <ClCompile Include="NotepadDlg.cpp" />
+    <ClCompile Include="Octree.cpp" />
+    <ClCompile Include="OctreeNode.cpp" />
+    <ClCompile Include="Open.cpp" />
+    <ClCompile Include="OutputWnd.cpp" />
+    <ClCompile Include="overlap.cpp" />
+    <ClCompile Include="Pair.cpp" />
+    <ClCompile Include="Plane.cpp" />
+    <ClCompile Include="PLine.cpp" />
+    <ClCompile Include="Pohd.cpp" />
+    <ClCompile Include="ProgressWnd.cpp" />
+    <ClCompile Include="Prop.cpp" />
+    <ClCompile Include="PropDef.cpp" />
+    <ClCompile Include="PropertiesWnd.cpp" />
+    <ClCompile Include="PropNew.cpp" />
+    <ClCompile Include="PropSet.cpp" />
+    <ClCompile Include="Quad.cpp" />
+    <ClCompile Include="RAPID.cpp" />
+    <ClCompile Include="RealModel.cpp" />
+    <ClCompile Include="RealModelDoc.cpp" />
+    <ClCompile Include="RealModelView.cpp" />
+    <ClCompile Include="RenderView.cpp" />
+    <ClCompile Include="Save.cpp" />
+    <ClCompile Include="SelNumPick.cpp" />
+    <ClCompile Include="SelOption.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Surf.cpp" />
+    <ClCompile Include="Trgl.cpp" />
+    <ClCompile Include="triangle .cpp" />
+    <ClCompile Include="Vector.cpp" />
+    <ClCompile Include="ViewPara.cpp" />
+    <ClCompile Include="ViewTree.cpp" />
+    <ClCompile Include="ZoomView.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="RealModel.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="RealModel.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
