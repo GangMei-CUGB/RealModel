@@ -1,1 +1,2 @@
 # RealModel
+This repository is the original code for Paper: [RealModel: A System for Modeling and Visualizing Sedimentary Rocks]. RealModel is designed and developed to construct and predicate geologically reasonalble objects (sedimentary rocks) according to the geological and geometrical information acquired from the outcrops while considering only two basic sedimentary processes (deposition and erosion).
